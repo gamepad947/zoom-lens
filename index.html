@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="img-zoom-container">
+      <img
+        id="image"
+        src="img/img.jpg"
+        width="300px"
+        height="300px"
+        alt="sneakers"
+      />
+      <div id="result" class="img-zoom-result"></div>
+    </div>
+  </body>
+  <script src="src/scaleScript.js"></script>
+  <script>
+    imageZoom("image", "result");
+  </script>
+</html>
