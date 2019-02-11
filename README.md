@@ -10,7 +10,7 @@ This script allows you to scale the image when you hover over the desired fragme
 
 The structure of the repository:
 
-- [img](./img)    Contains a test image 
+- [img](./img) 
 - [css](./css)
 - [src](./src)
-- [index.html](./src)
+- [index.html](./index.html)
